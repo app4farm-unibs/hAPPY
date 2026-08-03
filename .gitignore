@@ -1,3 +1,5 @@
 *.ipynb
 *.csv
-
+.vscode
+*.py
+*.txt
