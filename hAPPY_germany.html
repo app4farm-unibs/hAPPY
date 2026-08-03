@@ -1,0 +1,45 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8" />
+    <title>Ciphered page</title>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js"></script>
+    </head>
+    <body>
+    <p style="font-family:sans-serif;">🔐 Anauthorized access: content locked</p>
+    <script>
+        const ed = {
+            iv: "yIyNsIvGNOVpN6JpqvJxfA==",
+            ciphertext: "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"
+        };
+
+        function decryptPage(password) {
+            try {
+                const key = CryptoJS.SHA256(password);
+                const iv = CryptoJS.enc.Base64.parse(ed.iv);
+                const decrypted = CryptoJS.AES.decrypt(ed.ciphertext, key, { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 });
+                const result = decrypted.toString(CryptoJS.enc.Utf8);
+                if (!result) throw new Error("Wrong key or corrupted data");
+                document.open(); document.write(result); document.close();
+            } catch (e) {
+                document.body.innerHTML = "<p style='color:red;font-family:sans-serif;'>❌ Deciphering failed: " + e.message + "</p>";
+            }
+        }
+
+        // 1. Prova da query string
+        const pms = new URLSearchParams(window.location.search);
+        if (pms.has("key")) {
+            decryptPage(pms.get("key"));
+        } else {
+            // 2. Altrimenti ascolta postMessage
+            window.addEventListener("message", (e) => {
+                if (e.data && typeof e.data === "string") {
+                    decryptPage(e.data);
+                }
+            }, false);
+        }
+    </script>
+    </body>
+    </html>
+    
